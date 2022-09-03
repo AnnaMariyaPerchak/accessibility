@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header class="header">
+        <div class="headerLeft">
+            <img alt="Logo" src="images/Logo.svg" />
+
+            <nav>
+                <ol class="crumbs">
+                    <li class="crumb"><a href="#"> <p class="navText">About us</p> </a></li>
+                    <li class="crumb"><a href="#"><p class="navText">Contact us</p> </a></li>
+                    <li class="crumb"><a href="#"><p class="navText">Blog</p> </a></li>
+                    <li class="crumb"><a href="#"><p class="navText">Site Map</p> </a></li>
+                    <li>
+                        <select class="select" id="language">
+                            <option value="eng">Eng</option>
+                            <option value="ukr">Ukr</option>
+                            <option value="pol">Pol</option>
+                            <option value="kor">Kor</option>
+                        </select>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="searchWrapper">
+            <input class="searchInput" type="search" placeholder="Search this site" />
+            <div class="searchIconWrapper">
+                <img alt="Search" src="images/Search.svg" />
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div>
+            <h1 class="introTitle">Lorem ipsum dolor sit amet</h1>
+            <h3 class="introSubtitle">Lorem ipsum dolor sit amet</h3>
+            <p class="introText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tincidunt posuere eu risus cursus. Senectus sed maecenas viverra tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <button  class="introButton">Buy Now</button>
+        </div>
+        <img alt="IntroImage" src="images/IntroImage.png" />
+    </section>
+
+    <section class="aboutUsWrapper">
+        <article class="aboutUsSection">
+            <img alt="About Us" src="images/aboutUs.png" />
+
+            <div class="aboutUsTextContainer">
+                <h3 class="aboutUsTitle">About Us</h3>
+                <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tincidunt posuere eu risus cursus. Senectus sed maecenas viverra tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tincidunt posuere eu risus cursus.</p>
+                <a class="aboutUsLink" href="#">Learn more about</a>
+            </div>
+        </article>
+
+        <article class="aboutUsSection">
+            <img alt="About Us" src="images/aboutUs.png" />
+
+            <div class="aboutUsTextContainer">
+                <h3 class="aboutUsTitle">About Us2</h3>
+                <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tincidunt posuere eu risus cursus. Senectus sed maecenas viverra tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend tincidunt posuere eu risus cursus.</p>
+                <a class="aboutUsLink" href="#">Learn more about</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="contactUsWrapper">
+        <article class="contactUsContainer">
+            <div class="contactUsLeftSide">
+                <h4 class="contactUsTitle">Contact Us</h4>
+                <p class="contactUsText">Fill up the form and ur Team will get back to you within 24 hours. Happy to see your message!</p>
+                <div class="contactUsLinks">
+                        <a class="contactUsLinkWrapper contactUsText" href="tel:+380 93 15 32 456" target="_blank">
+                            <img alt="facebook" src="images/facebook.svg" />
+                            +380 93 15 32 456
+                        </a>
+                        <a class="contactUsLinkWrapper contactUsText" href="mailto:example@gmail.com" target="_blank">
+                            <img alt="facebook" src="images/facebook.svg" />
+                            example@gmail.com
+                        </a>
+                            <a class="contactUsLinkWrapper contactUsText" href="google.com/maps?q=Pidmurma+5a,+Lviv&um=1&ie=UTF-8&sa=X&ved=2ahUKEwithYu0j_n5AhXURfEDHT55AK0Q_AUoAXoECAEQAw" target="_blank">
+                                <img alt="facebook" src="images/facebook.svg" />
+                                Pidmurma 5a, Lviv
+                            </a>
+                </div>
+                <div class="contactUsIconsWrapper">
+                    <img alt="facebook" src="images/facebook.svg" />
+                    <img alt="facebook" src="images/facebook.svg" />
+                    <img alt="facebook" src="images/facebook.svg" />
+                </div>
+            </div>
+            <form class="contactUsRighttSide">
+                <div class="contactUsInputsWrapper">
+                    <div class="inputWrapper">
+                        <label class="contactUsText required" for="firstName">First name</label>
+                        <input class="contactUsInput" type="text" placeholder="First name" id="firstName">
+                    </div>
+                       
+                    <div class="inputWrapper">
+                        <label class="contactUsText required" for="lastName">Last name</label>
+                        <input class="contactUsInput" type="text" placeholder="Last name" id="lastName">
+                    </div>
+                </div>
+                <div class="contactUsInputsWrapper">
+                    <div class="inputWrapper">
+                        <label class="contactUsText" for="email">Email</label>
+                        <input class="contactUsInput" type="email" placeholder="example@gmail.com" id="email">
+                    </div>
+                    
+                    <div class="inputWrapper">
+                        <label class="contactUsText" for="number">Phone number</label>
+                        <input class="contactUsInput" type="number" placeholder="Phone number" id="number">
+                    </div>
+
+                </div>
+                <div class="radiobuttonSet">
+                    <div>
+                        <input type="radio" id="uiDesigner" name="direction" value="uiDesigner">
+                        <label class="contactUsText" for="uiDesigner">UI Developer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="uiUxDesigner" name="direction" value="uiUxDesigner">
+                        <label class="contactUsText" for="uiUxDesigner">UI/UX Designer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="accessibilityExpert" name="direction" value="accessibilityExpert">
+                        <label class="contactUsText" for="accessibilityExpert">Accessibility  Expert</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="qaEngineer" name="direction" value="qaEngineer">
+                        <label class="contactUsText" for="qaEngineer">QA Engineer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Other" name="direction" value="Other">
+                        <label class="contactUsText" for="Other">Other</label>
+                    </div>
+                </div>
+                <div class="contactUsTextarea">
+                    <label class="contactUsText" for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" cols="33" placeholder="Text here...">
+                    </textarea>
+
+                </div>
+                <div class="checkboxSet">
+                    <div>
+                        <input type="checkbox" id="accepttheTerms" name="acceptTerm" value="accepttheTerms">
+                        <label class="contactUsText" for="accepttheTerms">Accept the Terms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="accepttheTerms2" name="acceptTerm" value="accepttheTerms2">
+                        <label class="contactUsText" for="accepttheTerms2">Accept the Terms2</label>
+                    </div>
+                </div>
+                <button  class="contactUsButton">Send Message</button>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footerFirstSection">
+            <div class="footerSubscribe">
+                <h4 class="footerSubscribeTitle">PlantMe</h4>
+                <p class="footerSubscribeSubtitle">Subscribe and be the first to know about our news and promotions.</p>
+                <div class="footerSubscribeEmailWrapper">
+                    <input class="footerSubscribeInput" type="email" placeholder="example@gmail.com" />
+                    <button class="footerSubscribeButton">Subscribe</button>
+                </div>
+            </div>
+            <div class="footerNavigation">
+                <a class="footerNavigationLink" href="#">About Us</a>
+                <a class="footerNavigationLink" href="#">Contact Us</a>
+                <a class="footerNavigationLink" href="#">Blog</a>
+                <a class="footerNavigationLink" href="#">Site Map</a>
+            </div>
+            <div class="footerContacts">
+                <p class="footerContactsTitle">Contacts</p>
+                <a class="footerContactsInfo" href="tel:+380 93 15 32 456" target="_blank">
+                    +380 93 15 32 456
+                </a>
+                <a class="footerContactsInfo" href="mailto:example@gmail.com" target="_blank">
+                    example@gmail.com
+                </a>
+                <div class="footerContactsCards">
+                    <img alt="visaCreditCard" src="images/visaCreditCard.svg" />
+                    <img alt="masterCardCreditCard" src="images/masterCardCreditCard.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="footerDivider"></div>
+        <div class="footerSecondSection">
+            <p class="footerSecondSectionText">© 2022 PlantMe. All Rights Reserved</p>
+            <div class="footerSpansWrapper">
+                <span class="footerSpanText">Privacy Policy</span>
+                <span class="footerSpanText">Terms of service</span>
+                <span class="footerSpanText">Language</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

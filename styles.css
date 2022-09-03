@@ -1,0 +1,438 @@
+@font-face {
+    font-family: outfitNormal;
+    src: url(fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfitBold;
+    src: url(fonts/Outfit/static/Outfit-Bold.ttf);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 64px;
+    height: 48px;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+.navText{
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+}
+
+.navText::after {
+    color: #000;
+    content: '';
+    width: 0px;
+    height: 18px;
+    margin: 0 16px;
+    border: 1px solid #111111;
+}
+
+.crumbs {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 457px;
+}
+
+.crumb a{
+    text-decoration: none;
+}
+
+.select{
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    width: 60px;
+}
+
+.searchWrapper{
+    width: 424px;
+    height: 48px;
+    border: 1px solid #3A6150;
+    display: flex;
+}
+
+.searchInput{
+    border: none;
+    width: 376px;
+    padding: 11px 15px 11px 16px;
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.searchInput::-webkit-search-decoration,
+.searchInput::-webkit-search-cancel-button,
+.searchInput::-webkit-search-results-button,
+.searchInput::-webkit-search-results-decoration { display: none; }
+
+.searchIconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: auto;
+    background: #3A6150;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    padding: 24px 64px 60px;
+    gap: 18px;
+}
+
+.introTitle{
+    font-family: outfitBold;
+    font-size: 48px;
+    line-height: 57px;
+    color: #3A6150;
+    margin-bottom: 36px;
+}
+
+.introSubtitle{
+    font-family: outfitNormal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3A6150;
+    margin-bottom: 12px;
+}
+
+.introText{
+    font-family: outfitNormal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    margin-bottom: 36px;
+}
+
+.introButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 63px;
+    width: 198px;
+    height: 48px;
+    background: #3A6150;
+    border-radius: 2px;
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: 1px solid #3A6150;
+}
+
+.aboutUsWrapper{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 80px 64px;
+}
+
+.aboutUsSection{
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    padding: 24px 24px 35px;
+    background: #3A6150;
+    border-radius: 2px;
+}
+
+.aboutUsTextContainer{}
+
+.aboutUsTitle{
+    font-family: outfitBold;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.aboutUsText{
+    font-family: outfitNormal;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+margin: 12px 0 23px;
+}
+
+.aboutUsLink{
+    font-family: outfitBold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.aboutUsLink::after{
+    content: '→';
+}
+
+.contactUsWrapper{}
+
+.contactUsContainer{
+    display: flex;
+    padding: 80px 64px 120px;
+    background: #71837B;
+}
+
+.contactUsLeftSide{
+    width: 425px;
+height: 637px;
+background: url(images/contactUsBackground.png);
+border-radius: 12px;
+padding: 42px;
+background-size: cover;
+}
+
+.contactUsTitle{
+
+font-family: outfitBold;
+font-size: 48px;
+line-height: 57px;
+color: #111111;
+margin-bottom:16px
+}
+
+.contactUsText{
+    font-family: outfitNormal;
+font-size: 14px;
+line-height: 21px;
+color: #111111;
+text-decoration: none;
+}
+
+.contactUsLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 56px;
+}
+
+.contactUsLinkWrapper{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.contactUsIconsWrapper{
+    margin-top: 250px;
+    display: flex;
+    gap: 40px;
+}
+
+.inputWrapper{
+    display: flex;
+}
+
+.contactUsInputsWrapper{
+    display: flex;
+    gap: 18px;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.required::before{
+    content: '*';
+    color: red;
+}
+
+.contactUsInput{
+    padding: 12px 12px 12px 8px;
+    width: 394px;
+    height: 18px;
+    border: 1px solid #111111;
+border-radius: 3px;
+color: black;
+
+font-family: outfitNormal;
+font-size: 14px;
+line-height: 21px;
+}
+
+.contactUsInput:focus{
+    border: 2px solid #3A6150;
+
+}
+
+.radiobuttonSet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactUsTextarea{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkboxSet{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.contactUsButton{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 40px;
+    width: 198px;
+    height: 48px;
+    background: #3A6150;
+    border-radius: 2px;
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: 1px solid #3A6150;
+    align-self: flex-end;
+}
+
+.contactUsRighttSide{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 50px 28px;
+    background: #FFFFFF;
+    border-radius: 0px 12px 12px 0px
+}
+
+.footerSubscribeTitle{
+    font-family: outfitBold;
+font-size: 48px;
+line-height: 60px;
+color: #000000;
+}
+
+.footerSubscribeSubtitle{
+    font-family: outfitNormal;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+padding: 20px 0 30px;
+}
+
+.footerSubscribeEmailWrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerSubscribeInput{
+    width: 308px;
+height: 37px;
+border: 0;
+border-bottom: 1px solid #111111;}
+
+.footerSubscribeButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 60px;
+    width: 195px;
+    height: 48px;
+    background: #3A6150;
+    border-radius: 2px;
+    font-family: outfitNormal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: 1px solid #3A6150;
+}
+
+.footerNavigationLink{
+    font-family: outfiNormal;
+font-size: 18px;
+line-height: 27px;
+color: #111111;
+text-decoration: none;
+}
+
+.footerNavigation{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.footerContactsTitle{
+    font-family: outfitNormal;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
+
+.footerContactsInfo{
+    font-family: outfitNormal;
+font-size: 14px;
+line-height: 21px;
+color: #111111;
+text-decoration: none;
+display: flex;
+}
+
+.footerContactsCards{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.footerFirstSection{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 64px;
+}
+
+.footerDivider{
+    border: 1px solid #E9E9E9;
+    width: 100%;
+}
+
+.footerSpanText{
+    font-family: outfitNormal;
+font-size: 14px;
+line-height: 20px;
+color: rgba(17, 17, 17, 0.5);
+}
+
+.footerSpansWrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footerSecondSectionText{
+    font-family: outfitNormal;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+}
+
+.footerSecondSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 263px;
+    padding: 24px 64px;
+}
